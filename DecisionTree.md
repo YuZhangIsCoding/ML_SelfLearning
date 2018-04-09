@@ -1,11 +1,11 @@
 # Decision Tree
 
-Andrew Ng's Machine Learning Course does not include Decision Tree. I found some of useful materials for these topics from CMU's machine learning course [10-601](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml).  
+Andrew Ng's Machine Learning Course does not include Decision Tree. I found some useful materials for these topics from CMU's machine learning course [10-601](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.html).  
 * Decision Tree
 
     Example:    
 
-    ![DecisionTree](../images/DecisionTree.jpg)
+    ![DecisionTree](images/DecisionTree.jpg)
 
     * Each internal node: test one discrete-valued attribute x<sub>i</sub>
     * Each branch from a node: select one value for x<sub>i</sub>
@@ -24,11 +24,11 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 * Logic operations:
     * y = x1 &times; x2
 
-    ![AndOper](../images/AndOper.jpg)
+    ![AndOper](images/AndOper.jpg)
 
     * y = x1 U x2
 
-    ![OrOper](../images/OrOper.jpg)
+    ![OrOper](images/OrOper.jpg)
 
     * We can actually represent all discrete-wise functions with decision trees
 
@@ -66,13 +66,13 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
 * Function approximation: the big picture
 
-    ![FunctionApproximation](../images/FunctionApproximation.jpg)
+    ![FunctionApproximation](images/FunctionApproximation.jpg)
 
     f: X &rarr; Y, suppose we have 20 training sets
 
-    # of trees: 2<sup>20</sup>
+    \# of trees: 2<sup>20</sup>
 
-    # of teachable functions decision trees can represent = 2 <sup>2<sup>20</sup></sup>
+    \# of teachable functions decision trees can represent = 2 <sup>2<sup>20</sup></sup>
 
     * There are many decision trees that can match well with training examples, but don't agree on unseen examples
 
@@ -82,7 +82,7 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
 * Overfitting in Decision Tree
 
-    ![DT_overfitting](../images/DT_overfitting.jpg)
+    ![DT_overfitting](images/DT_overfitting.jpg)
 
 * Reduce-Error Pruning
     
@@ -92,8 +92,8 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
     Do until futher pruning is harmful
 
-        1. Evaluate impact on cross-validation set of pruning each possible node
-        2. Greedily remove the one that mostly improves validation set accuracy
+    1. Evaluate impact on cross-validation set of pruning each possible node
+    2. Greedily remove the one that mostly improves validation set accuracy
 
 * 2 core aspects of machine learning
 
