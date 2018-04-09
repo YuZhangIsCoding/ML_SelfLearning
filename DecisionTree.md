@@ -58,11 +58,11 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
     * Conditional entropy:
 
-    <img src="http://latex.codecogs.com/svg.latex?H(x|y)=-\sum_{v{\in}values(y)}P(y=v)H(x|y=v)
+    <img src="http://latex.codecogs.com/svg.latex?H(x|y)=-\sum_{v{\in}values(y)}P(y=v)H(x|y=v)"/>
 
     * Mutual information (Information Gain) of x and y
 
-    <img src="http://latex.codecogs.com/svg.latex?l(x, y)=H(x)-H(x|y)=H(y)-H(y|x)"/>
+    <img src="http://latex.codecogs.com/svg.latex?l(x,y)=H(x)-H(x|y)=H(y)-H(y|x)"/>
 
 * Function approximation: the big picture
 
