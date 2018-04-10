@@ -5,7 +5,7 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
     Example:    
 
-    ![DecisionTree](images/DecisionTree.jpg)
+    ![DecisionTree](../images/DecisionTree.jpg)
 
     * Each internal node: test one discrete-valued attribute x<sub>i</sub>
     * Each branch from a node: select one value for x<sub>i</sub>
@@ -24,11 +24,11 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 * Logic operations:
     * y = x1 &times; x2
 
-    ![AndOper](images/AndOper.jpg)
+    ![AndOper](../images/AndOper.jpg)
 
     * y = x1 U x2
 
-    ![OrOper](images/OrOper.jpg)
+    ![OrOper](../images/OrOper.jpg)
 
     * We can actually represent all discrete-wise functions with decision trees
 
@@ -66,7 +66,7 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
 * Function approximation: the big picture
 
-    ![FunctionApproximation](images/FunctionApproximation.jpg)
+    ![FunctionApproximation](../images/FunctionApproximation.jpg)
 
     f: X &rarr; Y, suppose we have 20 training sets
 
@@ -82,7 +82,7 @@ Andrew Ng's Machine Learning Course does not include Decision Tree. I found some
 
 * Overfitting in Decision Tree
 
-    ![DT_overfitting](images/DT_overfitting.jpg)
+    ![DT_overfitting](../images/DT_overfitting.jpg)
 
 * Reduce-Error Pruning
     
