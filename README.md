@@ -2,3 +2,4 @@ Machine learning is a big field and there are plenty of algorithms need to know.
 
 Topics includes:
 * [Decision Tree](https://github.com/YuZhangIsCoding/ML_SelfLearning/blob/master/DecisionTree/DecisionTree.md)
+* [NaiveBayes](https://github.com/YuZhangIsCoding/ML_SelfLearning/blob/master/NaiveBayes/NaiveBayes.md)
